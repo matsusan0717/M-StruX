@@ -2148,13 +2148,13 @@ color-scheme:light}/* ========================================= [基本] リセ�
             </b:widget>
           </b:section>
         </b:if>
-        <!-- 広告&#65306;記事一覧/記事 下部 -->
+        <!-- 広告 記事一覧/記事 下部 -->
         <div class='adsense-slot' id='ad-main-bottom'/>
       </main>
       
 <!-- 右カラム: サイドバー -->
 <aside class='sidebar'>
-  <!-- 広告&#65306;サイドバー上部 -->
+  <!-- 広告 サイドバー上部 -->
   <div class='adsense-slot' id='ad-sidebar-top'/>
   <!-- プロフィールウィジェット -->
   <div id='matsu-profile-container' style='visibility: hidden;'>
@@ -2228,7 +2228,7 @@ color-scheme:light}/* ========================================= [基本] リセ�
       </select>
     </div>
   </div>
-  <!-- 広告&#65306;サイドバー下部 -->
+  <!-- 広告 サイドバー下部 -->
   <div class='adsense-slot' id='ad-sidebar-bottom'/>
 </aside>
 </div>
@@ -2375,9 +2375,9 @@ const NAV_CONFIG = [
         ]
     },
     {
-        label: "Travel",
-        url: "/search/label/Travel",
-        mega: "label$テンプレート"
+        label: "タイトル",
+        url: "/search/label/URL",
+        mega: "label$ラベル名"
     },
     { label: "About", url: "/p/about.html" },
     { label: "ブログ", url: "/search" },
