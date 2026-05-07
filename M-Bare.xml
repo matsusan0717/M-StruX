@@ -2467,7 +2467,7 @@ const NAV_CONFIG = [
         instagram: "https://instagram.com/your_id",
         tiktok: "https://tiktok.com/@your_id",
         youtube: "https://youtube.com/@your_id",
-        profile: "https://www.blogger.com/profile/09356377632801246953",
+        profile: "https://www.blogger.com/profile/yourID",
         cover: "", // プロフィールカードの背景画像URL（空の場合は単色）
         description: "プロフィール紹介文",
     };
