@@ -1445,7 +1445,7 @@
       
       <!-- 左カラム: メインコンテンツ -->
       <main id='main-content'>
-        <!-- 広告&#65306;記事一覧/記事 上部 -->
+        <!-- 広告 記事一覧/記事 上部 -->
         <div class='adsense-slot' id='ad-main-top'/>
         <div id='view-root'>
           <b:if cond='!data:view.isPreview'>
@@ -2113,7 +2113,6 @@
       position: relative;
       display: inline-block;
     }
-
     .post-body a.b-tooltip-container .b-tooltip {
       display: block !important;
       position: absolute;
@@ -2125,7 +2124,6 @@
       z-index: 1;
       transition: opacity 0.2s ease-in-out;
     }
-
     .post-body a.b-tooltip-container .b-tooltip iframe {
       width: 200px;
       height: 198px;
@@ -2134,7 +2132,6 @@
       border-radius: 20px;
       box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.2);
     }
-
     @media (hover: hover) {
       .post-body a.b-tooltip-container:hover .b-tooltip {
         visibility: visible;
@@ -2147,13 +2144,13 @@
             </b:widget>
           </b:section>
         </b:if>
-        <!-- 広告&#65306;記事一覧/記事 下部 -->
+        <!-- 広告 記事一覧/記事 下部 -->
         <div class='adsense-slot' id='ad-main-bottom'/>
       </main>
       
 <!-- 右カラム: サイドバー -->
 <aside class='sidebar'>
-  <!-- 広告&#65306;サイドバー上部 -->
+  <!-- 広告 サイドバー上部 -->
   <div class='adsense-slot' id='ad-sidebar-top'/>
   <!-- プロフィールウィジェット -->
   <div id='matsu-profile-container' style='visibility: hidden;'>
@@ -2222,12 +2219,12 @@
       </select>
     </div>
   </div>
-  <!-- サイドバー目次&#65288;記事ページのみ&#12539;JS制御&#65289; -->
+  <!-- サイドバー目次 -->
   <div class='sidebar-widget' id='sidebar-toc-widget' style='display:none;'>
     <h3 class='widget-title'>目次</h3>
     <nav id='sidebar-toc-content'/>
   </div>
-  <!-- 広告&#65306;サイドバー下部 -->
+  <!-- 広告 サイドバー下部 -->
   <div class='adsense-slot' id='ad-sidebar-bottom'/>
 </aside>
 </div>
@@ -2341,7 +2338,7 @@
         viewMode: "card", // "card" or "list"
         showLabels: true,        // スマホメニュー：ラベル
         showHashtags: true,      // スマホメニュー：ハッシュタグ
-        showSidebarTOC: true,    // サイドバー目次（記事ページのみ表示）
+        showSidebarTOC: true,    // サイドバー目次
     };
 
     // =========================================
