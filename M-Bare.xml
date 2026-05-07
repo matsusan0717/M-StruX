@@ -213,9 +213,7 @@
       .mobile-nav-nav .has-dropdown.is-open .accordion-trigger i.fa-chevron-down {
          transform: rotate(180deg);
       }
-      /* =========================================
-         サイドバー目次
-         ========================================= */
+      /*  サイドバー目次  */
       .sidebar-toc-list {
          list-style: none;
          padding: 0;
@@ -555,8 +553,7 @@
          }
       }
 
-      /* ===== #FULL モード ===== */
-      /* サイドバートグルボタン: 常に非表示&#12289;FULLモード(PC)時のみ表示 */
+      /* #FULL モード  */
       .sidebar-toggle {
          display: none;
          background: none;
@@ -573,10 +570,8 @@
       .sidebar-toggle svg { width: 20px; height: 20px; }
       .sidebar-toggle:hover { background: rgba(128,128,128,0.1); }
 
-      /* スライドサイドバー本体: スマホでは完全非表示 */
       .slide-sidebar, .slide-sidebar-overlay { display: none; }
 
-      /* サイドバーのチラつき防止 */
       .sidebar {
          opacity: 0;
          transition: opacity 0.2s ease;
