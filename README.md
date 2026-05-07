@@ -10,7 +10,7 @@ M-Bare は、Blogger 向けに設計されたシンプル・軽量なカスタ�
 
 ---
 
-![BloggerテンプレートM-Bare](https://i.imgur.com/QtUJGjZ.jpeg "BloggerテンプレートM-Bare")
+![BloggerテンプレートM-Bare](https://i.imgur.com/v5PgIMJ.jpeg "BloggerテンプレートM-Bare")
 
 ---
 
