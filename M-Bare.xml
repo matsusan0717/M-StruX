@@ -2178,6 +2178,11 @@
       </button>
     </form>
   </div>
+  <!-- サイドバー目次 -->
+  <div class='sidebar-widget' id='sidebar-toc-widget' style='display:none;'>
+    <h3 class='widget-title'>目次</h3>
+    <nav id='sidebar-toc-content'/>
+  </div>
 <b:if cond='data:view.isMultipleItems'>
   <b:else/>
   <div class='tabs-container'>
@@ -2218,11 +2223,6 @@
         <option value=''>月を選択...</option>
       </select>
     </div>
-  </div>
-  <!-- サイドバー目次 -->
-  <div class='sidebar-widget' id='sidebar-toc-widget' style='display:none;'>
-    <h3 class='widget-title'>目次</h3>
-    <nav id='sidebar-toc-content'/>
   </div>
   <!-- 広告 サイドバー下部 -->
   <div class='adsense-slot' id='ad-sidebar-bottom'/>
