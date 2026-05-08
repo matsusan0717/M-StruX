@@ -447,6 +447,7 @@ const AD_CONFIG = {
 ## ライセンス
 
 個人利用のみ可。配布・販売は禁止です。
+フッターの著作権表示の削除はしないでください。
 
 © matsusan — https://blogger.matsusanjpn.com/
 
