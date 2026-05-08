@@ -2491,6 +2491,9 @@
       --tab-border-color: #eeeeee !important;
       color-scheme: light !important;
     }
+    #view-root{
+    display:none;
+    }
   </style>
 </b:if>
     <script>
