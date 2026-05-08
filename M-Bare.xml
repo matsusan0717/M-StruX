@@ -2537,7 +2537,7 @@ const NAV_CONFIG = [
         tiktok: "https://tiktok.com/@your_id",
         youtube: "https://youtube.com/@your_id",
         profile: "https://www.blogger.com/profile/プロフィールID",
-        cover: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5zRi2n-6yKtxw5ZBpPheDrL57t_JWyVVWjiuzIuh7F0fbj096yoMrwaaSb9Ao0S2JS9TPRvN0jBdqH6EJG9E26vuV1WwuKY5E7boaEeHBcKiyFxkk0fzvIpbXyIV5GDhUJU2DEApvnyIZtIxax2-4ygZImuKlH3sCjniqb7q6PpCOvBTp5-QMQq1p1MV1/s800/8758ddef-45c1-4276-a009-fe1ab8abb844.png", // プロフィールカードの背景画像URL（空の場合は単色）
+        cover: "", // プロフィールカードの背景画像URL（空の場合は単色）
         description: "プロフィール紹介文",
     };
     const initTheme = () => {
