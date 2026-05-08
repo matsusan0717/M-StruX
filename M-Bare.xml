@@ -521,17 +521,21 @@
       .matsu-toc a:hover {
          color: var(--accent);
       }
-      /* SNS埋め込み */
 
-      .entry-content .twitter-tweet, .entry-content iframe[src*=&quot;
-      twitter&quot;
-      ], .entry-content iframe[src*=&quot;
-      platform.twitter&quot;
-      ] {
-         max-width: 100% !important;
+      /* SNS埋め込み */
+      .entry-content .twitter-tweet,
+      .entry-content .twitter-tweet-rendered {
+         display: block !important;
+         margin: 0 auto !important;
+         max-width: 550px !important;
          width: 100% !important;
       }
-      .entry-content .twitter-tweet, .entry-content .twitter-lazy {
+      .entry-content .twitter-tweet-rendered iframe,
+      .entry-content iframe[id^=&quot;twitter-widget&quot;] {
+         width: 100% !important;
+         min-width: 100% !important;
+      }
+      .entry-content .twitter-lazy {
          display: block !important;
          margin: 0 auto !important;
          max-width: 550px !important;
@@ -545,7 +549,9 @@
          margin: 0 auto !important;
       }
       @media (max-width: 900px) {
-         .entry-content .twitter-tweet-rendered, .entry-content iframe {
+         .entry-content .twitter-tweet-rendered,
+         .entry-content .twitter-tweet-rendered iframe,
+         .entry-content iframe[id^=&quot;twitter-widget&quot;] {
             max-width: 100% !important;
             width: 100% !important;
          }
