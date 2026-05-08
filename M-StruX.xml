@@ -2469,8 +2469,30 @@
         </b:widget>
       </b:section>
     </div>
-
-
+<b:if cond='data:view.isPreview'>
+  <style>
+    /* プレビュー時にライトモードを強制適用 */
+    :root, html, html[data-theme="dark"] {
+      --bg-color: #f8fafc !important;
+      --text-main: #1e293b !important;
+      --text-muted: #64748b !important;
+      --card-bg: transparent !important;
+      --border: #e2e8f0 !important;
+      --accent: #b45309 !important;
+      --accent-hover: #e97834 !important;
+      --base-navy: #1e3a5f !important;
+      --sub-amber: #f59e0b !important;
+      --bq-bg: #f3f3f3 !important;
+      --bq-border: #c4c4c4 !important;
+      --header-bg: #1e3a5f !important;
+      --tab-text-active: #333 !important;
+      --tab-text-muted: #aaaaaa !important;
+      --tab-lamp-color: #333 !important;
+      --tab-border-color: #eeeeee !important;
+      color-scheme: light !important;
+    }
+  </style>
+</b:if>
     <script>
 //<![CDATA[
 (function() {
