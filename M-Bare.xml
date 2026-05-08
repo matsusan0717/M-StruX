@@ -162,7 +162,6 @@
          color: var(--accent) !important;
          opacity: 1 !important;
       }
-      /* PCのhoverドロップダウンをモバイルナビ内で完全無効化 */
       .mobile-nav-nav .has-dropdown:hover &gt; .dropdown-menu {
          opacity: 1 !important;
          visibility: visible !important;
@@ -174,7 +173,6 @@
       .mobile-nav-nav .has-dropdown.is-open:hover &gt; .dropdown-menu {
          display: block !important;
       }
-      /* アコーディオン&#65306;子要素を下に展開 */
       .mobile-nav-nav .dropdown-menu {
          display: none !important;
          position: static !important;
@@ -624,7 +622,7 @@
          .slide-sidebar-overlay.is-active { display: block; }
       }
 
-      /* ヘッダー内検索フォーム (#FULLモード時のみ表示) */
+      /* ヘッダー内検索フォーム */
       .header-search {
          display: none;
          margin-left: auto;
@@ -1552,7 +1550,7 @@
         
         <nav class='header-nav' id='pc-nav'/>
 
-        <!-- #FULLモード時のみ表示するヘッダー内検索フォーム -->
+        <!-- 検索フォーム -->
         <div class='header-search' id='header-search'>
           <form action='/search' class='search-form' method='get'>
             <input class='search-input' name='q' placeholder='キーワードを入力...' type='text'/>
