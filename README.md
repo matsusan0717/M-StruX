@@ -80,13 +80,13 @@ const BLOG_CONFIG = {
 | `showLabels` | スマホメニューにラベルを表示するか |
 | `showHashtags` | スマホメニューにハッシュタグを表示するか |
 
+> テーマ → HTMLを編集 → `BLOG_CONFIG` で検索
+
 ブログIDは Blogger 管理画面のURLに含まれる数字列です。
 
 ```text
 https://www.blogger.com/blog/posts/【ここの数字】
 ```
-
-> テーマ → HTMLを編集 → `BLOG_CONFIG` で検索
 
 カードビューはデフォルトで3列です。2列に変更する場合は
 
