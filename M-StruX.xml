@@ -2451,7 +2451,7 @@
     // [1] 設定 (ブログID・SNS・プロフィール)
     // ==========================================
     const BLOG_CONFIG = {
-        blogId: "4087447061387298527", // 400エラーが出る場合は、ここをご自身のブログIDに書き換えてください
+        blogId: "***************************", // 400エラーが出る場合は、ここをご自身のブログIDに書き換えてください
         viewMode: "card", // "card" or "list"
         showLabels: true,        // スマホメニュー：ラベル
         showHashtags: true,      // スマホメニュー：ハッシュタグ
@@ -2481,25 +2481,25 @@ const NAV_CONFIG = [
         label: "カテゴリー",
         url: "#",
         children: [
-            { label: "テンプレート", url: "/search/label/テンプレート" },
-            { label: "設定", url: "/search/label/%23設定" },
+            { label: "タイトル", url: "/search/label/URL" },
+            { label: "タイトル", url: "/search/label/URL" },
         ]
     },
     {
-        label: "テンプレート",
-        url: "/search/label/テンプレート",
-        mega: "label$テンプレート"
+        label: "ラベル名",
+        url: "/search/label/URL",
+        mega: "label$ラベル名"
     },
 ];
 
     const SNS_CONFIG = {
-        twitter: "https://x.com/macco_tpd",
-        instagram: "https://github.com/matsusan0717",
-        tiktok: "https://blogger.matsusanjpn.com/",
-        youtube: "https://www.youtube.com/@youtpd",
-        profile: "https://www.blogger.com/profile/09356377632801246953",
-        cover: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYSFvOc5c720UEFqA7T_Ar0fXYELcX4e83WNbXHYTLLFfkDw6XaMF9SInCmVw6GkED5tJbXrCuynpfq1U4lOF8pjyYj3sz1p3Lcg7ApDVO5cUWzPjZaWSungf5lsEKCQB9FjjIVarh_c7yPmyuxByx9uePx4Yg_9ITGayqz9o1EVa5TVaZVWNAtOh9zuM/s320-rw/2334.png", // プロフィールカードの背景画像URL（空の場合は単色）
-        description: "Bloggerのテンプレート M-StruXのデモブログです。",
+        twitter: "https://twitter.com/your_id",
+        instagram: "https://instagram.com/your_id",
+        tiktok: "https://tiktok.com/@your_id",
+        youtube: "https://youtube.com/@your_id",
+        profile: "https://www.blogger.com/profile/プロフィールID",
+        cover: "", // プロフィールカードの背景画像URL（空の場合は単色）
+        description: "プロフィール説明文",
     };
     const initTheme = () => {
         const isPreview = window.location.hostname === "draft.blogger.com";
