@@ -82,7 +82,7 @@ const BLOG_CONFIG = {
 
 カードビューはデフォルトで3列です。2列に変更する場合は
 
-```html
+```css
   .post-grid {
    display: grid;
    grid-template-columns: repeat(3, 1fr);
