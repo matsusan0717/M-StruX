@@ -668,7 +668,7 @@
          .header-search { display: none !important; }
       }
 	  @media (max-width:768px) {
-	  .entry-content h2 {
+	  .entry-content h2,  .entry-content h1 {
     font-size: 1.15rem;
     padding: 0.6rem 1rem;
     margin: 2rem 0 1.2rem;
