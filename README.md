@@ -13,8 +13,8 @@ Bloggerの JSON Feed API を使って記事データを取得し、一覧・個�
 また、メガメニュー、プロフィールカード、検索・アーカイブページの noindex 制御、構造化データ（JSON-LD）、Twitter Card、Canonical URL 自動設定など、SEO・UX を意識した機能も標準搭載しています。
 
 ---
-
-![BloggerテンプレートM-StruX](https://i.imgur.com/k1ftUOu.jpeg "BloggerテンプレートM-StruX")
+https://i.imgur.com/SM193wl.jpeg
+![BloggerテンプレートM-StruX](https://i.imgur.com/SM193wl.jpeg "BloggerテンプレートM-StruX")
 
 ---
 
