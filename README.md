@@ -14,7 +14,7 @@ Bloggerの JSON Feed API を使って記事データを取得し、一覧・個�
 
 ---
 
-![BloggerテンプレートM-StruX](https://i.imgur.com/v5PgIMJ.jpeg "BloggerテンプレートM-StruX")
+![BloggerテンプレートM-StruX](https://i.imgur.com/k1ftUOu.jpeg "BloggerテンプレートM-StruX")
 
 ---
 
