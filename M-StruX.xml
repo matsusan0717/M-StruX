@@ -2324,7 +2324,7 @@
     <h3 class='widget-title'>目次</h3>
     <nav id='sidebar-toc-content'/>
   </div>
-<b:if cond='data:view.isMultipleItems'>
+<b:if cond='data:view.isHomepage'>
   <b:else/>
   <div class='tabs-container'>
     <div class='tabs-header'>
