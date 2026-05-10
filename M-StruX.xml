@@ -3297,13 +3297,11 @@ const insertStructuredData = (post) => {
     document.head.appendChild(script)
 };
 (function() {
-    // トップページ（blogspot.com/ で ?page= なし）のみ非表示
     const _tabsWidget = document.getElementById('sidebar-tabs-widget');
     if (_tabsWidget) {
         const _loc = window.location;
         const _path = _loc.pathname.replace(/\/+$/, '') || '/';
         const _page = new URLSearchParams(_loc.search).get('page');
-        // パスがルート("/") かつ ?page= パラメータがない → トップページ1ページ目 → 非表示
         const _isTop = (_path === '' || _path === '/') && !_page;
         if (_isTop) { _tabsWidget.style.display = 'none'; }
     }
