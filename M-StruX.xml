@@ -2319,11 +2319,12 @@
       </button>
     </form>
   </div>
-    <!-- サイドバー目次 -->
+  <!-- サイドバー目次 -->
   <div class='sidebar-widget' id='sidebar-toc-widget' style='display:none;'>
     <h3 class='widget-title'>目次</h3>
     <nav id='sidebar-toc-content'/>
   </div>
+<!-- 人気 新着記事 -->  
 <div class='tabs-container' id='sidebar-tabs-widget'>
     <div class='tabs-header'>
       <div class='tab-item active' id='tab-pop'><i class='fa-solid fa-fire-flame-curved'/> 人気記事</div>
@@ -2343,12 +2344,14 @@
       </div>
     </div>
   </div>
+  <!-- ラベル -->
   <div class='sidebar-widget'>
     <h3 class='widget-title'>ラベル</h3>
     <div class='tags' id='sidebar-labels'>
       <span style='color:var(--text-muted);font-size:0.9rem;'>読み込み中...</span>
     </div>
   </div>
+  <!-- ハッシュタグ -->
   <div class='sidebar-widget' id='sidebar-hashtags-widget' style='display:none'>
     <h3 class='widget-title'>ハッシュタグ</h3>
     <div class='tags' id='sidebar-hashtags'/>
