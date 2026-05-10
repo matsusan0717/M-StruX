@@ -2456,10 +2456,10 @@
     // ==========================================
     var BLOG_CONFIG = {
         blogId: "***********************", 	 // 400エラーが出る場合は、ここをご自身のブログIDに書き換えてください
-        viewMode: "card",        					 // "card" or "list"
-        showLabels: true,       					 // スマホメニュー：ラベル
-        showHashtags: true,     					 // スマホメニュー：ハッシュタグ
-        showSidebarTOC: true,    				 // サイドバー目次
+        viewMode: "card",        		// "card" or "list"
+        showLabels: true,       		// スマホメニュー：ラベル
+        showHashtags: true,     		// スマホメニュー：ハッシュタグ
+        showSidebarTOC: true,    	// サイドバー目次
     };
 
     // =========================================
