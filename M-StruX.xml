@@ -2456,10 +2456,10 @@
     // ==========================================
     var BLOG_CONFIG = {
         blogId: "***************************", // 400エラーが出る場合は、ここをご自身のブログIDに書き換えてください
-        viewMode: "card",        // "card" or "list"
-        showLabels: true,        // スマホメニュー：ラベル
-        showHashtags: true,      // スマホメニュー：ハッシュタグ
-        showSidebarTOC: true,    // サイドバー目次
+        viewMode: "card",        					 // "card" or "list"
+        showLabels: true,       					 // スマホメニュー：ラベル
+        showHashtags: true,     					 // スマホメニュー：ハッシュタグ
+        showSidebarTOC: true,    				 // サイドバー目次
     };
 
     // =========================================
@@ -2471,12 +2471,12 @@
     var AD_CONFIG = {
         client: "ca-pub-XXXXXXXXXXXXXXXX", // ← パブリッシャーID
         slots: {
-            "ad-main-top":      "", // メインカラム上部
-            "ad-main-bottom":   "", // メインカラム下部
-            "ad-post-top":      "", // 記事ページ本文 上
-            "ad-post-bottom":   "", // 記事ページ本文 下
-            "ad-sidebar-top":   "", // サイドバー上部
-            "ad-sidebar-bottom":"", // サイドバー下部
+            "ad-main-top":      "", 								// メインカラム上部
+            "ad-main-bottom":   "",							// メインカラム下部
+            "ad-post-top":      "", 								// 記事ページ本文 上
+            "ad-post-bottom":   "",							// 記事ページ本文 下
+            "ad-sidebar-top":   "", 							// サイドバー上部
+            "ad-sidebar-bottom":"", 						// サイドバー下部
         }
     };
 
