@@ -45,6 +45,10 @@ Bloggerの JSON Feed API を使って記事データを取得し、一覧・個�
 
 ---
 
+利用規約
+
+https://blogger-template-m-strux.blogspot.com/p/terms-of-service.html
+
 ## 使い方
 
 ### 1. テンプレートの適用
