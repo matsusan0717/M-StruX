@@ -2559,8 +2559,6 @@ document.write(unescape(&#39;%20%20%20%20%3C%64%69%76%20%73%74%79%6C%65%3D%27%6D
 </script>  
     <div id='matsu-lightbox'><img alt='Lightbox' src=''/></div>
     <button id='back-to-top' title='Go to top'><i class='fa-solid fa-chevron-up'/></button>
-
-    <!-- 固定ページのみ: ContactForm用 widgets.js を動的ロード -->
     <b:if cond='data:view.isPage'>
     <script>
     //<![CDATA[
@@ -2568,13 +2566,11 @@ document.write(unescape(&#39;%20%20%20%20%3C%64%69%76%20%73%74%79%6C%65%3D%27%6D
       if (window.__cfWidgetsLoaded) return;
       window.__cfWidgetsLoaded = true;
       var blogId = '<data:blog.blogId/>';
-      // Bloggerが出力するscriptタグからwidgets.jsのURLを取得（バージョン番号を動的解決）
       var found = null;
       var all = document.querySelectorAll('script[src]');
       for (var i = 0; i < all.length; i++) {
         if (all[i].src.indexOf('widgets.js') !== -1) { found = all[i].src; break; }
       }
-      // フォールバック: Bloggerの標準パス
       var url = found || 'https://www.blogger.com/static/v1/widgets/widgets.js';
       var s = document.createElement('script');
       s.src = url;
@@ -2601,6 +2597,5 @@ document.write(unescape(&#39;%20%20%20%20%3C%64%69%76%20%73%74%79%6C%65%3D%27%6D
     //]]>
     </script>
     </b:if>
-
   </body>
 </html>
