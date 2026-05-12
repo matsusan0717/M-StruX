@@ -480,4 +480,6 @@ const AD_CONFIG = {
 
 ## 支援
 
+このテンプレートは完全無料で提供しております。もし活動を応援していただける場合は、更新やツール維持のためのご支援を賜れますと幸いです。
+
 [![Support via Coindrop](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpkX8o_UdfTmYPmh04wDuIY3KeW1HwR23-siLCD-1ef1Rs96J0YLuaSwbNKe1c6FuWRx5GH7N2WBInxOHAue1qwd-b5ieuzpoQCHynZrwUuhV4LeMjpWkF7NagVtfEXXwNCy9f9OTitRoq1mFm_qwYqn3xXd11Oe-JVF3g15uEeXuV7t46KhyR1ZNd0bM/w200-h200/%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89.png)](https://coindrop.to/m-strux)
