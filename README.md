@@ -478,6 +478,8 @@ const AD_CONFIG = {
 
 © matsusan — https://blogger.matsusanjpn.com/
 
+ご利用前に必ず[利用規約](https://blogger-template-m-strux.blogspot.com/p/terms-of-service.html)をご確認ください。
+
 ## 支援
 
 このテンプレートは完全無料で提供しております。もし活動を応援していただける場合は、更新やツール維持のためのご支援を賜れますと幸いです。
