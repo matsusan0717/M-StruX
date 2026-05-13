@@ -2572,6 +2572,124 @@ var NAV_CONFIG = [
 document.write(unescape('%20%20%20%20%3C%64%69%76%20%73%74%79%6C%65%3D%27%6D%61%78%2D%77%69%64%74%68%3A%20%76%61%72%28%2D%2D%6D%61%78%2D%77%69%64%74%68%29%3B%20%6D%61%72%67%69%6E%3A%20%30%20%61%75%74%6F%3B%20%70%61%64%64%69%6E%67%3A%20%30%20%31%2E%35%72%65%6D%3B%20%74%65%78%74%2D%61%6C%69%67%6E%3A%20%72%69%67%68%74%3B%27%3E%0A%20%20%20%20%20%20%3C%70%20%69%64%3D%27%64%65%73%69%67%6E%65%64%2D%62%79%27%20%73%74%79%6C%65%3D%27%66%6F%6E%74%2D%73%69%7A%65%3A%20%31%31%70%78%3B%20%63%6F%6C%6F%72%3A%20%23%38%38%38%3B%27%3E%0A%20%20%20%20%20%20%20%20%3C%61%20%68%72%65%66%3D%27%68%74%74%70%73%3A%2F%2F%62%6C%6F%67%67%65%72%2D%74%65%6D%70%6C%61%74%65%2D%6D%2D%73%74%72%75%78%2E%62%6C%6F%67%73%70%6F%74%2E%63%6F%6D%2F%27%20%73%74%79%6C%65%3D%27%63%6F%6C%6F%72%3A%20%69%6E%68%65%72%69%74%3B%20%74%65%78%74%2D%64%65%63%6F%72%61%74%69%6F%6E%3A%20%6E%6F%6E%65%3B%27%20%74%61%72%67%65%74%3D%27%5F%62%6C%61%6E%6B%27%3E%26%63%6F%70%79%3B%20%6D%61%74%73%75%73%61%6E%3C%2F%61%3E%0A%20%20%20%20%20%20%3C%2F%70%3E%0A%20%20%20%20%3C%2F%64%69%76%3E'));
 </script>
     <div id='matsu-lightbox'><img alt='Lightbox' src=''/></div>
+<script>
+//<![CDATA[
+(function(){
+  /* ---- ダミー: パフォーマンス計測風の変数群 ---- */
+  var _perf=performance.now(),_rnd=Math.random(),_uid=(_rnd*0xFFFFFF|0).toString(16);
+  var _mark=function(k){try{performance.mark&&performance.mark(k)}catch(e){}};
+  _mark('ms-init-'+_uid);
+
+  /* ---- 正解URLの難読化組み立て ---- */
+  var _p0=['https',':','//','blogger','-template','-m','-strux','.blogspot','.com','/'];
+  var _p1=function(a){return a.join('')};
+  /* ダミーの比較先（実際には使わない） */
+  var _dmy0=_p1(['https',':','//','example','.com']);
+  var _dmy1=_p1(['https',':','//','blogger','.matsusanjpn','.com']);
+  /* 本物の正解URL */
+  var _tgt=_p1(_p0);
+
+  /* ---- チェック関数 ---- */
+  var _chk=function(){
+    _mark('ms-chk-'+_uid);
+    /* ダミー: ページ属性の読み取り（結果は使わない） */
+    var _docLang=document.documentElement.lang||'';
+    var _charSet=document.characterSet||document.charset||'';
+    if(!_docLang)_docLang='ja';
+
+    var _el=document.getElementById('designed-by');
+    /* 要素が存在しない → NG */
+    if(!_el){_warn();return;}
+    var _anc=_el.querySelector('a');
+    /* アンカーが存在しない → NG */
+    if(!_anc){_warn();return;}
+
+    /* href の比較（末尾スラッシュの有無を吸収） */
+    var _href=(_anc.getAttribute('href')||'').replace(/\/$/,'');
+    var _ref=_tgt.replace(/\/$/,'');
+    /* ダミー: 文字数チェック風の処理（結果は使わない） */
+    var _len=_href.length+_ref.length+_charSet.length;
+    if(_len<0)_len=0; /* 到達しない */
+
+    if(_href!==_ref){_warn();return;}
+    _mark('ms-ok-'+_uid);
+  };
+
+  /* ---- 警告表示 ---- */
+  var _warn=function(){
+    /* 多重表示防止 */
+    if(document.getElementById('ms-lg-notice'))return;
+
+    /* ダミー: ローカルストレージへの書き込み風（実際には使わない） */
+    try{var _k='__ms_'+_uid;sessionStorage.setItem(_k,'1');}catch(e){}
+
+    var _d=document.createElement('div');
+    _d.id='ms-lg-notice';
+    /* スタイル: --header-bg (#1e3a5f) をベース */
+    _d.style.cssText=[
+      'position:fixed','bottom:18px','right:18px',
+      'z-index:2147483647','max-width:300px','padding:14px 16px',
+      'background:#1e3a5f','color:#fff','font-size:12px',
+      'line-height:1.6','border-radius:6px',
+      'box-shadow:0 4px 18px rgba(0,0,0,0.35)',
+      'font-family:system-ui,sans-serif'
+    ].join(';');
+
+    /* ダミー要素（非表示・視覚的には無関係） */
+    var _ghost=document.createElement('span');
+    _ghost.style.display='none';
+    _ghost.setAttribute('aria-hidden','true');
+    _ghost.textContent=_uid;
+    _d.appendChild(_ghost);
+
+    /* 本文 */
+    var _msg=document.createElement('p');
+    _msg.style.cssText='margin:0 0 8px;font-weight:700;font-size:13px;';
+    _msg.textContent='⚠ License Alert';
+    _d.appendChild(_msg);
+
+    var _txt=document.createElement('p');
+    _txt.style.cssText='margin:0 0 10px;opacity:0.92;';
+    _txt.textContent='このサイトはM-StruXの著作権表記が改変または削除されています。';
+    _d.appendChild(_txt);
+
+    var _lnk=document.createElement('a');
+    _lnk.href='https://blogger-template-m-strux.blogspot.com/';
+    _lnk.target='_blank';
+    _lnk.rel='noopener noreferrer';
+    _lnk.style.cssText='color:#f59e0b;font-weight:700;text-decoration:underline;';
+    _lnk.textContent='公式サイトを確認する →';
+    _d.appendChild(_lnk);
+
+    /* 閉じるボタン */
+    var _cl=document.createElement('button');
+    _cl.style.cssText=[
+      'position:absolute','top:8px','right:10px',
+      'background:none','border:none','color:#fff',
+      'cursor:pointer','font-size:16px','line-height:1','padding:0'
+    ].join(';');
+    _cl.textContent='×';
+    _cl.setAttribute('aria-label','close');
+    _cl.onclick=function(){
+      try{_d.parentNode&&_d.parentNode.removeChild(_d);}catch(e){}
+    };
+    _d.appendChild(_cl);
+    _d.style.position='fixed'; /* 再確認（removeが呼ばれても位置は変わらない） */
+
+    document.body.appendChild(_d);
+    _mark('ms-warn-'+_uid);
+  };
+
+  /* ---- 実行: DOMContentLoaded 後に単発チェック ---- */
+  if(document.readyState==='loading'){
+    document.addEventListener('DOMContentLoaded',_chk,{once:true});
+  }else{
+    /* すでにDOM構築済みの場合（script defer等） */
+    setTimeout(_chk,0);
+  }
+})();
+//]]>
+</script>
     <button id='back-to-top' title='Go to top'><i class='fa-solid fa-chevron-up'/></button>
 
     <b:if cond='data:view.isPage'>
