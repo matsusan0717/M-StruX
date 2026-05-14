@@ -47,7 +47,7 @@ Bloggerの JSON Feed API を使って記事データを取得し、一覧・個�
 
 ## 利用規約
 
-ご利用前に [利用規約](https://blogger-template-m-strux.blogspot.com/p/terms-of-service.html) をご確認ください。
+ご利用前に [利用規約](https://blogger-template-m-bare.blogspot.com/p/terms-of-servicehtml.html) をご確認ください。
 
 ---
 
@@ -479,7 +479,7 @@ const AD_CONFIG = {
 フッターの著作権表示の削除はしないでください。
 
 フッターの著作権表示を削除・非表示・改変した場合、本テンプレートの利用許諾は自動的に失効します。その場合、利用者は本テンプレートの使用を継続する権利を失い、著作者は必要に応じて削除要請・利用停止申請・法的措置（DMCA申請を含む）を行うことがあります。
-ご利用前に必ず [利用規約](https://blogger-template-m-strux.blogspot.com/p/terms-of-service.html) をご確認ください。
+ご利用前に必ず [利用規約](https://blogger-template-m-bare.blogspot.com/p/terms-of-servicehtml.htmll) をご確認ください。
 
 © matsusan — [https://blogger-template-m-strux.blogspot.com/](https://blogger-template-m-strux.blogspot.com/)
 
@@ -490,6 +490,8 @@ If the footer copyright is removed, hidden, or altered in any way, the license t
 Upon license revocation, the user loses the right to use this template, and the author reserves the right to request removal, issue takedown notices (including DMCA), and take any necessary actions to enforce copyright protection.
 
 ---
+
+Blogger TIPS https://blogger.matsusanjpn.com/
 
 ## 支援
 
