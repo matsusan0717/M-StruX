@@ -2385,8 +2385,8 @@
   </div>
 <div class='tabs-container' id='sidebar-tabs-widget'>
     <div class='tabs-header'>
-      <div class='tab-item active' id='tab-pop'><i class='fa-solid fa-fire-flame-curved'/> 人気記事</div>
-      <div class='tab-item' id='tab-rec'><i class='fa-regular fa-calendar-days'/> 新着記事</div>
+      <div class='tab-item active' id='tab-pop'><i class='fa-solid fa-fire-flame-curved' style='margin:0 10px 0 0;'/> 人気記事</div>
+      <div class='tab-item' id='tab-rec'><i class='fa-regular fa-calendar-days' style='margin:0 10px 0 0;'/> 新着記事</div>
       <div class='tab-lamp'/>
     </div>
     <div class='tabs-content'>
