@@ -2583,7 +2583,6 @@ document.write(unescape(&#39;%20%20%20%20%3C%64%69%76%20%73%74%79%6C%65%3D%27%6D
 </script>
     <button id='back-to-top' title='Go to top'><i class='fa-solid fa-chevron-up'/></button>
 	<div id='matsu-lightbox'><img alt='Lightbox' src=''/></div>
-
     <b:if cond='data:view.isPage'>
     <script>
     //<![CDATA[
@@ -2622,6 +2621,5 @@ document.write(unescape(&#39;%20%20%20%20%3C%64%69%76%20%73%74%79%6C%65%3D%27%6D
     //]]>
     </script>
     </b:if>
-
   </body>
 </html>
