@@ -709,6 +709,9 @@
     gap: 0.4rem 1rem;
   }
 }
+a:hover {
+    text-decoration-color: var(--accent) !important;
+}   		
     </style>
 <b:if cond='data:view.isPage'>
 	<style>
