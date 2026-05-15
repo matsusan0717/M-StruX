@@ -4,7 +4,7 @@
   <head>
 <meta charset='utf-8'/>
 <meta content='width=device-width,initial-scale=1' name='viewport'/>    
-<!-- タイトル最適化 -->
+<!-- Title Optimization -->
 <b:if cond='data:blog.pageType == &quot;index&quot;'>
   <title><data:blog.title/></title>
 <b:else/>
@@ -121,7 +121,7 @@
    html[data-theme="light"] {
       color-scheme: light;
    }
-	/* 一覧ページの列数変更  */
+	/* Changing the number of columns on the list page  */
 	.post-grid {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
@@ -713,7 +713,7 @@
   <body>
     <div id='hidden-label-widget'>
       <b:section id='top-hidden-section' locking='yes' maxwidgets='5' showaddelement='no'>
-        <b:widget id='PopularPosts1' locked='true' title='Popular (人気記事)' type='PopularPosts' version='2' visible='true'>
+        <b:widget id='PopularPosts1' locked='true' title='Popular (Popular Articles)' type='PopularPosts' version='2' visible='true'>
           <b:widget-settings>
             <b:widget-setting name='numItemsToShow'>3</b:widget-setting>
             <b:widget-setting name='showThumbnails'>true</b:widget-setting>
@@ -978,11 +978,11 @@
   </div>
 </b:includable>
         </b:widget>
-        <b:widget id='FeaturedPost1' locked='true' title='Highlight (注目記事)' type='FeaturedPost' version='2' visible='true'>
+        <b:widget id='FeaturedPost1' locked='true' title='Highlight (Featured Articles)' type='FeaturedPost' version='2' visible='true'>
           <b:widget-settings>
             <b:widget-setting name='showSnippet'>true</b:widget-setting>
             <b:widget-setting name='showPostTitle'>true</b:widget-setting>
-            <b:widget-setting name='postId'>4214780398006421425</b:widget-setting>
+            <b:widget-setting name='postId'>0</b:widget-setting>
             <b:widget-setting name='showFirstImage'>true</b:widget-setting>
             <b:widget-setting name='useMostRecentPost'>true</b:widget-setting>
           </b:widget-settings>
