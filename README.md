@@ -48,6 +48,7 @@ Bloggerの JSON Feed API を使って記事データを取得し、一覧・個�
 ## 利用規約
 
 ご利用前に [利用規約](https://m-strux.matsusanjpn.com/p/terms-of-service.html) をご確認ください。
+
 M-StruXのテンプレートを適用した時点で [利用規約](https://m-strux.matsusanjpn.com/p/terms-of-service.html) に同意したとみなします。
 
 ---
