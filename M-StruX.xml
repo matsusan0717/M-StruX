@@ -368,7 +368,11 @@
          border-color: var(--accent);
       }
       /* Shimmer */
-
+	  	.skeleton,
+		.post-thumbnail-wrapper,
+		.skeleton-thumb,
+		.skeleton-text,
+		.skeleton-meta {
       animation: shimmer 1.5s infinite linear;
       border-radius: var(--radius);
       }
