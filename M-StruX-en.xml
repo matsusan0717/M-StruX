@@ -175,10 +175,9 @@
          max-height: 0;
          overflow: hidden;
          padding: 0 0 0 1rem !important;
-         background: rgba(128,128,128,0.04) !important;
+         background: var(--bg-color) !important;
          box-shadow: none !important;
          border: none !important;
-         border-left: 2px solid var(--border) !important;
          visibility: visible !important;
          opacity: 1 !important;
          transform: none !important;
