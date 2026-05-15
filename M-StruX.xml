@@ -104,7 +104,6 @@
          --accent-hover: #fbbf24;
          --header-bg: #0f172a;
          --bq-bg: #1e293b;
-         /* --borderより少し明るい紺など */
          --bq-border: #334155;
          color-scheme: dark;
          --tab-text-active: #f1f5f9;
