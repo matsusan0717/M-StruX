@@ -493,7 +493,7 @@ Upon license revocation, the user loses the right to use this template, and the 
 
 ---
 
-M-StruX https://blogger.matsusanjpn.com/
+M-StruX [https://m-strux.matsusanjpn.com/](https://m-strux.matsusanjpn.com/)
 
 ## 支援
 
