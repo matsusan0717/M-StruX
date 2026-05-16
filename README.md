@@ -481,7 +481,7 @@ const AD_CONFIG = {
 フッターのテンプレート制作者のコピーライトは削除しないでください。
 
 フッターのテンプレート制作者のコピーライトを削除・非表示・改変した場合、本テンプレートの利用許諾は自動的に失効します。その場合、利用者は本テンプレートの使用を継続する権利を失い、著作者は必要に応じて削除要請・利用停止申請・法的措置（DMCA申請を含む）を行うことがあります。
-ご利用前に必ず [利用規約](https://m-strux.matsusanjpn.com/p/terms-of-service.html) をご確認ください。
+<br/>ご利用前に必ず [利用規約](https://m-strux.matsusanjpn.com/p/terms-of-service.html) をご確認ください。
 
 © matsusan — [https://m-strux.matsusanjpn.com/](https://m-strux.matsusanjpn.com/)
 
