@@ -41,6 +41,7 @@ Bloggerの JSON Feed API を使って記事データを取得し、一覧・個�
 - **レスポンシブ対応** — スマホはハンバーガーメニュー（スライドイン）
 - **SEO対応** — OGP / Twitter Card / JSON-LD / Canonical / noindex
 - **Gooleアドセンス対応** — アドセンスエリア
+- **404ページ** — 専用404デザイン
 - **FontAwesome 6** 採用
 
 ---
