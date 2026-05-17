@@ -29,13 +29,12 @@
 <!-- OGP Image & Twitter Card -->
 <b:if cond='data:blog.postImageUrl'>
   <meta expr:content='data:blog.postImageUrl' property='og:image'/>
-  <meta content='summary_large_image' name='twitter:card'/>
 <b:else/>
   <!-- ここにデフォルト画像のURLを入れてください -->
-  <meta content='https://example.com/your-default-image.jpg' property='og:image'/>
-  <meta content='summary' name='twitter:card'/>
+  <meta content='https://example.com/your-default-image.jpg' property='og:image'/>	  
 </b:if>
-<meta expr:content='data:blog.title' name='twitter:title'/>    
+<meta content='summary_large_image' name='twitter:card'/>
+<meta expr:content='data:blog.title' name='twitter:title'/>
 <!-- FontAwesome for icons -->
 <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css' media='print' onload='this.media=&quot;all&quot;' rel='stylesheet'/>    
     <script>
