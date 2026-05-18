@@ -56,8 +56,8 @@ Bloggerの JSON Feed API を使って記事データを取得し、一覧・個�
 [利用規約違反通報フォーム](https://m-strux.matsusanjpn.com/p/forum.html)
 
 ※ 確認されている利用規約違反ブログ<br/>
-- https://000hot24h.blogspot.com/ (通報 / 削除済)
-- https://docdao68.blogspot.com/ (通報 / 削除済)
+- ポリシー違反通報済 削除済み https://000hot24h.blogspot.com/
+- ポリシー違反通報済 削除済みhttps://docdao68.blogspot.com/
 
 ---
 
