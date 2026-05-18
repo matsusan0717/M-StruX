@@ -50,6 +50,15 @@ Bloggerの JSON Feed API を使って記事データを取得し、一覧・個�
 ご利用前に [利用規約](https://m-strux.matsusanjpn.com/p/terms-of-service.html) をご確認ください。
 <br/>M-StruX のテンプレートをダウンロード、またはブログへ適用した時点で、 [利用規約](https://m-strux.matsusanjpn.com/p/terms-of-service.html) のすべての条項に同意したものとみなします。
 
+利用規約に違反するブログが確認されております。<br/>
+フッターのテンプレート制作者のコピーライトを削除・非表示・改変した場合、本テンプレートの利用許諾は自動的に失効します。その場合、利用者は本テンプレートの使用を継続する権利を失い、著作者は必要に応じて削除要請・利用停止申請・法的措置（DMCA申請を含む）を行うことがあります。
+
+[利用規約違反通報フォーム](https://m-strux.matsusanjpn.com/p/forum.html)
+
+※ 確認されている利用規約違反ブログ<br/>
+- https://000hot24h.blogspot.com/
+- https://docdao68.blogspot.com/
+
 ---
 
 ## ドキュメント
