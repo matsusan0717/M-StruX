@@ -54,7 +54,7 @@ Bloggerの JSON Feed API を使って記事データを取得し、一覧・個�
 
 ## ドキュメント
 
-詳細なガイド、解説は [公式ブログ](https://m-strux.matsusanjpn.com) をご覧ください。 
+詳細なガイド、設定方法、解説は [公式ブログ](https://m-strux.matsusanjpn.com) をご覧ください。 
 
 ## 動作環境
 
