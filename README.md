@@ -57,7 +57,7 @@ Bloggerの JSON Feed API を使って記事データを取得し、一覧・個�
 
 ※ 確認されている利用規約違反ブログ<br/>
 - ポリシー違反通報済 削除済み https://000hot24h.blogspot.com/
-- ポリシー違反通報済 削除済みhttps://docdao68.blogspot.com/
+- ポリシー違反通報済 削除済み https://docdao68.blogspot.com/
 
 ---
 
