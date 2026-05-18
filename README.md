@@ -453,12 +453,6 @@ const AD_CONFIG = {
 
 ---
 
-## 使用ライブラリ
-
-- Font Awesome 6.4.2（CDN経由）
-
----
-
 ## 更新履歴
 
 - 2026.05.18｜2.2.1｜アイコンを Font Awesome から SVG へ統一
