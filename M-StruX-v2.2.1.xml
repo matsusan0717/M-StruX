@@ -19,22 +19,22 @@
   <meta content='noindex,follow' name='robots'/>
 </b:if>
 <!-- Open Graph Data (OGP) -->
-<meta expr:content='data:blog.pageName ? data:blog.pageName : data:blog.title' property='og:title'/>
-<meta expr:content='data:blog.pageType == &quot;item&quot; ? &quot;article&quot; : &quot;website&quot;' property='og:type'/>
-<meta expr:content='data:blog.canonicalUrl' property='og:url'/>
-<meta expr:content='data:blog.title' property='og:site_name'/>
-<b:if cond='data:blog.metaDescription'>
-  <meta expr:content='data:blog.metaDescription' property='og:description'/>
+<meta expr:content='data:view.description.escaped' property='og:description'/>
+<b:if cond='data:view.isSingleItem'>
+  <meta content='article' property='og:type'/>
+  <b:else/>
+  <meta content='blog' property='og:type'/>
 </b:if>
-<!-- OGP Image & Twitter Card -->
-<b:if cond='data:blog.postImageUrl'>
-  <meta expr:content='data:blog.postImageUrl' property='og:image'/>
-<b:else/>
+<meta expr:content='data:blog.title' property='og:site_name'/>
+<b:if cond='data:view.isSingleItem and data:view.featuredImage'>
+  <meta expr:content='resizeImage(data:view.featuredImage, 560, &quot;16:9&quot;)' property='og:image'/>
+  <meta expr:content='resizeImage(data:view.featuredImage, 560, &quot;16:9&quot;)' name='twitter:image'/>
+  <b:else/>
   <!-- ここにデフォルト画像のURLを入れてください -->
-  <meta content='https://example.com/your-default-image.jpg' property='og:image'/>	  
+  <meta content='https://example.com/your-default-image.jpg' property='og:image'/>
+  <meta content='https://example.com/your-default-image.jpg' name='twitter:image'/>
 </b:if>
 <meta content='summary_large_image' name='twitter:card'/>
-<meta expr:content='data:blog.title' name='twitter:title'/>
 <!-- FontAwesome for icons -->
     
     <script>
