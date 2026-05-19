@@ -35,9 +35,8 @@
   <meta content='https://example.com/your-default-image.jpg' name='twitter:image'/>
 </b:if>
 <meta content='summary_large_image' name='twitter:card'/>
-<!-- FontAwesome for icons -->
-    
-    <script>
+    <!-- mode -->
+	<script>
     (function() {
       try {
         var saved = localStorage.getItem(&#39;mbare-theme&#39;);
