@@ -78,7 +78,7 @@ Bloggerの JSON Feed API を使って記事データを取得し、一覧・個�
 
 ## 更新履歴
 
- [公式ブログ](https://m-strux.matsusanjpn.com/2026/05/blogger-about-mstrux.html) でご覧ください。 
+ [公式ブログ](https://m-strux.matsusanjpn.com/2026/05/blogger-about-mstrux.html) でご確認ください。 
 
 - 2026.05.01｜1.0.0｜正式版 配布開始
 
