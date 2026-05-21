@@ -705,6 +705,13 @@
     gap: 0.4rem 1rem;
   }
 }
+@media (max-width: 600px) {
+.adsense-slot
+ {
+    width: 90%;
+    margin: 2rem auto;
+}
+}	
     </style>
 <b:if cond='data:view.isPage'>
 	<style>
