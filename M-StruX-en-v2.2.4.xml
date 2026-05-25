@@ -701,6 +701,10 @@
     margin: 2rem auto;
 }
 }
+.blossomt-title a
+ {
+    text-shadow: 1px 1px 0 #FFF, -2px -2px 0 #FFF, -2px 2px 0 #FFF, 2px -2px 0 #FFF, 0px 2px 0 #FFF, 0 -2px 0 #FFF, -2px 0 0 #FFF, 2px 0 0 #FFF;
+}		
     </style>
 <b:if cond='data:view.isPage'>
 	<style>
