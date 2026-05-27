@@ -2425,14 +2425,14 @@
     <footer class='site-footer'>
       <div class='footer-navigation'>
         <a href='/p/about.html'>ABOUT</a>
-        <span class='separator'>&#65372;</span>
+        <span class='separator'> | </span>
         <a href='/p/privacy-policy.html'>PRIVACY POLICY</a>
-        <span class='separator'>&#65372;</span>
+        <span class='separator'> | </span>
         <a href='/p/contact.html'>CONTACT</a>
-        <span class='separator'>&#65372;</span>
+        <span class='separator'> | </span>
         <a href='/p/sitemap.html'>SITEMAP</a>
       </div>
-      <p>&#169; <span id='year'/> <data:blog.title/>. All rights reserved.</p>
+      <p>&amp;copy; <span id='year'/> <data:blog.title/>. All rights reserved.</p>
     </footer>
     <div style='display:none'>
       <b:section id='bottom-hidden-section' showaddelement='yes'>
