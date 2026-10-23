@@ -1,5 +1,6 @@
 # M-StruX — Blogger テンプレート
-![GitHub Release](https://img.shields.io/github/v/release/matsusan0717/M-StruX)
+![GitHub Release](https://img.shields.io/github/v/release/matsusan0717/M-StruX) ![Static Badge](https://img.shields.io/badge/Vanilla_JS-zero_frameworks-yellow?logo=javascript)
+
 
 M-StruX は、Blogger 向けに設計されたシンプル・軽量なカスタムテンプレートです。一般的な Blogger テーマとは異なり、テーマデザイナーや管理画面のレイアウト編集には対応していません。ガジェットの追加・削除・並び替えはレイアウト画面から行うことができず、カスタマイズはすべて XML（テンプレートHTML）を直接編集することで行います。そのため、ある程度 HTML / CSS / JavaScript の知識があるユーザー向けのテンプレートです。
 
